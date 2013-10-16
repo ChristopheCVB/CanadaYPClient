@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <style name="Theme.YellowAPI" parent="Theme.Sherlock">
+        <item name="actionBarStyle">@style/Theme.YellowAPI.Widget.ActionBar</item>
+        <item name="android:actionBarStyle">@style/Theme.YellowAPI.Widget.ActionBar</item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+        <item name="android:actionMenuTextColor">@android:color/white</item>
+        <item name="actionBarTabStyle">@style/Theme.YellowAPI.TabView</item>
+        <item name="android:actionBarTabStyle">@style/Theme.YellowAPI.TabView</item>
+    </style>
+
+    <style name="Theme.YellowAPI.Widget.ActionBar" parent="Widget.Sherlock.ActionBar">
+        <item name="android:divider">@android:color/black</item>
+        <item name="titleTextStyle">@style/Theme.YellowAPI.ActionBar.Title</item>
+        <item name="android:titleTextStyle">@style/Theme.YellowAPI.ActionBar.Title</item>
+    </style>
+
+    <style name="Theme.YellowAPI.ActionBar.Title" parent="@style/TextAppearance.Sherlock.Widget.ActionBar.Title">
+        <item name="android:textColor">@android:color/white</item>
+    </style>
+    
+    <style name="Theme.YellowAPI.TabView" parent="Widget.Sherlock.ActionBar.TabView">
+        <item name="android:paddingLeft">10dip</item>
+        <item name="android:paddingRight">10dip</item>
+    </style>
+
+    <style name="text">
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+    <style name="text_normal" parent="text">
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="text_large" parent="text">
+        <item name="android:textSize">14sp</item>
+    </style>
+    <style name="text_small" parent="text">
+        <item name="android:textSize">10sp</item>
+    </style>
+    
+</resources>
